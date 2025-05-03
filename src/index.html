@@ -3,10 +3,31 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Template File</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <title>Image Carousel</title>
 </head>
 <body>
-  <h1>This is just a template</h1>
+  <h1>This is a simple Image Carousel</h1>
+
+  <div class="img-container">
+    <img src="./assets/Screenshot from 2025-04-26 18-42-24.png">
+    <img src="./assets/Screenshot from 2025-05-02 15-24-55.png">
+    <img src="./assets/Screenshot from 2025-05-02 15-37-31.png">
+  </div>
+
+  <div class="carousel">
+    <img class="main-image" alt="Carousel Image" width="500">
+    <br>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <br>
+    <button class="previous">Previous</button>
+    <button class="next">
+      <i class="fa-solid fa-arrow-right"></i> 
+      Next
+    </button>
+  </div>
   
 </body>
 </html>
