@@ -1,4 +1,15 @@
 {
+  "name": "my-task-image-carousel",
+  "version": "1.0.0",
+  "description": "A simple JavaScript Image Carousel utility",
+  "main": "dist/index.js",
+  "author": "Adebayo",
+  "license": "MIT",
+  "keywords": ["image", "carousel", "javascript"],
+  "files": [
+    "dist/",
+    "styles.css"
+  ],
   "devDependencies": {
     "css-loader": "^7.1.2",
     "html-loader": "^5.1.0",
