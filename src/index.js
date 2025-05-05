@@ -44,3 +44,9 @@ dotsContainer.addEventListener('click', e => {
     updateCarousel();
   }
 });
+
+// Auto slide
+setInterval(() => {
+  currentIndex = ( currentIndex + 1 ) % imgSources.length;
+  updateCarousel();
+}, 5000)
